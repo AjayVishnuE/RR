@@ -1,6 +1,9 @@
 import React from 'react'
 import './navbar.css';
 
+import { default as Desktoplogo } from "../../assets/Renegades logo main.svg";
+import { default as Mobilelogo } from "../../assets/Renegades logo mobile.svg";
+
 const Navbar = () => {
   return (
     <div class="nav">
@@ -8,8 +11,8 @@ const Navbar = () => {
         <div class="nav-header">
           <div class="nav-title">
             <a href="./index.html">
-              <img class="nav-logo-desktop" src="./images/Renegades logo main.svg"/>
-              <img class="nav-logo-mobileview" src="./images/Renegades logo mobile.svg"/>
+              <img class="nav-logo-desktop" src={Desktoplogo}/>
+              <img class="nav-logo-mobileview" src={Mobilelogo}/>
             </a>
           </div>
         </div>

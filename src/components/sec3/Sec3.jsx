@@ -1,5 +1,10 @@
 import React from 'react'
 import './sec3.css';
+import {default as Discord } from "../../assets/Discord-logo.svg";
+import {default as Twitter } from "../../assets/Twitter-logo.svg";
+import {default as Telegram } from "../../assets/Telegram-logo.svg";
+import {default as Youtube } from "../../assets/Youtube-logo.svg";
+
 
 const Sec3 = () => {
   return (
@@ -13,7 +18,7 @@ const Sec3 = () => {
                   <div class="section3-1-in-4">
                       <h1 style={{color:"white", fontSize: "x-large", fontWeight:"400", margin:0, lineHeight: 1}}>DISCORD MEMBERS</h1>
                       <div class="section3-imgset">
-                          <img class="section3-img" src="./images/Discord-logo.svg" alt="" />
+                          <img class="section3-img" src={Discord} alt="" />
                           <h1 style={{color:"#FF723E", fontSize:45, fontWeight: "500", margin:0, lineHeight: 1}}>39,957</h1>
                       </div>
                       <a class="section3-a-button" href="">
@@ -25,7 +30,7 @@ const Sec3 = () => {
                   <div class="section3-1-in-4">
                       <h1 style={{color:"white", fontSize: "x-large", fontWeight:"400", margin:0, lineHeight: 1}}>TWITTER FOLLOWERS</h1>
                       <div class="section3-imgset">
-                          <img src="./images/Twitter-logo.svg" alt="" />
+                          <img src={Twitter} alt="" />
                           <h1 style={{color:"#FF723E", fontSize:45, fontWeight: "500", margin:0, lineHeight: 1}}>43,600</h1>
                       </div>
                       <a class="section3-a-button" href="">
@@ -37,7 +42,7 @@ const Sec3 = () => {
                   <div class="section3-1-in-4">
                       <h1 style={{color:"white", fontSize: "x-large", fontWeight:"400", margin:0, lineHeight: 1}}>TELEGRAM MEMBERS</h1>
                       <div class="section3-imgset">
-                          <img src="./images/Telegram-logo.svg" alt="" />
+                          <img src={Telegram} alt="" />
                           <h1 style={{color:"#FF723E", fontSize:45, fontWeight: "500", margin:0, lineHeight: 1}}>45,760</h1>
                       </div>
                       <a class="section3-a-button" href="">
@@ -49,7 +54,7 @@ const Sec3 = () => {
                   <div class="section3-1-in-4">
                       <h1 style={{color:"white", fontSize: "x-large", fontWeight:"400", margin:0, lineHeight: 1}}>YOUTUBE SUBSCRIBERS</h1>
                       <div class="section3-imgset">
-                          <img src="./images/Youtube-logo.svg" alt="" />
+                          <img src={Youtube} alt="" />
                           <h1 style={{color:"#FF723E", fontSize:45, fontWeight: "500", margin:0, lineHeight: 1}}>10,888</h1>
                       </div>
                       <a class="section3-a-button" href="">
