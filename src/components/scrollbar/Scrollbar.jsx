@@ -3,10 +3,8 @@ import './scrollbar.css';
 
 const Scrollbar = () => {
   return (
-    <div>
-      <div className="Scrollbar">
-        <h2>Scrollbar</h2>
-      </div>
+    <div class="progress-container">
+        <div id="progressbar" class="progress-bar"></div>
     </div>
   )
 }
