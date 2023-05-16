@@ -1,14 +1,14 @@
 import React from 'react'
-import './sec4.css';
+import './sec5.css';
 
-const Sec4 = () => {
+const Sec5 = () => {
   return (
     <div>
-      <div className="Sec4">
-        <h2>Sec4</h2>
+      <div className="Sec5">
+        <h2>Sec5</h2>
       </div>
     </div>
   )
 }
 
-export default Sec4
+export default Sec5
