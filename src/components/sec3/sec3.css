@@ -1,0 +1,78 @@
+.section3 {
+	height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+    background-image: url("../../assets/Home-bg3.svg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.section3-overlay{
+    background-color:black;
+    position: absolute;
+    opacity: .7;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+}
+
+.section3-content{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 5%;
+    z-index: 1;
+    opacity: 1;
+}
+
+.section3-set{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    gap:100px;
+}
+
+.section3-1-in-4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:15px;
+}
+
+.section3-imgset{
+  display: flex;
+  gap:20px;
+  margin: 0;
+  height: 50px;
+}
+
+.section3-img{
+    height: 40px;
+}
+
+.white-button{
+  background-color: #ffffff;
+  --edge-size: 1rem;
+  clip-path: polygon(0 0,calc(100% - var(--edge-size) - 3px) 0,calc(100% - var(--edge-size) - 1px) calc(0% + 0.5px),calc(100% - var(--edge-size) + 1px) calc(0% + 1.5px),calc(100% - 3px) calc(var(--edge-size) - 2px),calc(100% - 1px) calc(var(--edge-size) + 0.5px),calc(100% - 0.5px) calc(var(--edge-size) + 1.5px),calc(100%) calc(var(--edge-size) + 3px),100% 100%,calc(var(--edge-size) + 3px) 100%,calc(var(--edge-size) + 1px) calc(100% - 0.5px),calc(var(--edge-size) - 1px) calc(100% - 1.5px),calc(0% + 1.5px) calc(100% - var(--edge-size) + 1px),calc(0% + 0.5px) calc(100% - var(--edge-size) - 1px),0 calc(100% - var(--edge-size) - 2px));
+  height: 50px;
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3-a-button{
+  text-decoration: none;
+  color: black;
+}
