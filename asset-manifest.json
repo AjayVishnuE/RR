@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/RR/static/css/main.1e8e8ebe.css",
+    "main.js": "/RR/static/js/main.94c4de50.js",
+    "static/media/Home-bg3.svg": "/RR/static/media/Home-bg3.9792b01f32999f88d969.svg",
+    "static/media/Home-bg1.svg": "/RR/static/media/Home-bg1.32486db3acce9e58f261.svg",
+    "static/media/Home-bg2.svg": "/RR/static/media/Home-bg2.6ee6b6d6350f6c7c19bb.svg",
+    "static/media/Renegades logo main.svg": "/RR/static/media/Renegades logo main.fe7577c2b5be96d43d50c9929a207229.svg",
+    "static/media/Renegades logo mobile.svg": "/RR/static/media/Renegades logo mobile.2498a78238a8d59a6a6a4906cac6ad12.svg",
+    "static/media/Discord-logo.svg": "/RR/static/media/Discord-logo.e3ffaf99846fa02729f1924e30b77091.svg",
+    "static/media/Twitter-logo.svg": "/RR/static/media/Twitter-logo.d1c8aec036378905c48bd3a3255c3d5c.svg",
+    "static/media/Youtube-logo.svg": "/RR/static/media/Youtube-logo.63291cee1eb57af73c355a7fd0571427.svg",
+    "index.html": "/RR/index.html",
+    "static/media/Telegram-logo.svg": "/RR/static/media/Telegram-logo.29a67d8f7f3d9f2741ec12c169ce7850.svg",
+    "main.1e8e8ebe.css.map": "/RR/static/css/main.1e8e8ebe.css.map",
+    "main.94c4de50.js.map": "/RR/static/js/main.94c4de50.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e8e8ebe.css",
+    "static/js/main.94c4de50.js"
+  ]
+}
